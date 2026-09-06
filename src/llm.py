@@ -1,6 +1,6 @@
 import ollama
 
-MODEL_NAME = "llama3.2:3b"
+MODEL_NAME = "llama3.2:3b" 
 
 SYSTEM_PROMPT = """You are a helpful assistant that answers questions about a YouTube video, \
 based ONLY on the transcript excerpts provided to you.

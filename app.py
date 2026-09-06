@@ -4,7 +4,7 @@ from src.transcript import fetch_transcript
 from src.text_processing import clean_transcript, transcript_to_text_with_offsets, chunk_transcript
 from src.embeddings import embed_chunks
 from src.vector_store import VectorStore, retrieve_relevant_chunks
-from src.llm import answer_question
+from src.llm import answer_question 
 
 # Page configuration
 st.set_page_config(

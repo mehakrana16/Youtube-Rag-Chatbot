@@ -1,9 +1,8 @@
 # YouTube RAG Chatbot
-
 A local, zero-cost RAG chatbot that answers questions about any YouTube video. 
 It fetches the transcript, embeds it with Sentence Transformers, stores it in 
 FAISS, and generates grounded answers using a local LLM (Llama 3.2 via Ollama) 
-— no paid APIs, runs entirely on your own machine.
+— no paid APIs, runs entirely on your own machine. 
 
 ## Features
 - Paste any YouTube URL and load its transcript

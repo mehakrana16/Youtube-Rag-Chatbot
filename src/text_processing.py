@@ -7,7 +7,7 @@ def clean_segment_text(text: str) -> str:
     - Removes bracketed noise like [Music], [Applause]
     - Collapses excess whitespace/newlines
     - Strips leading/trailing spaces
-    """
+    """ 
     if not text:
         return ""
 

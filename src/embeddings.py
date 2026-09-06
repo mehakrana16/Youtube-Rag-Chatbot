@@ -3,7 +3,7 @@ import numpy as np
 
 # Loaded once and reused - loading the model from disk/downloading it
 # is slow, so we don't want to do it on every single function call.
-_model = None
+_model = None 
 
 
 def get_embedding_model() -> SentenceTransformer:
